@@ -15,7 +15,7 @@
     ./createPeerAdminCard.sh
     ```
 
-3) Next clone this repository anywhere and navigate into it by the following command
+3) Next clone this repository anywhere and navigate into it by issuing the following command
 
         `git clone https://github.com/nobodyme/simple-blockchain-network.git && cd simple-blockchain-network`
 
@@ -23,11 +23,11 @@
 
         `composer archive create -t dir -n .`
 
-5) Now install the composer runtime with the PeerAdmin@hlfv1 that's automatically created previously along with the name of the business network which in our case is simple-buy-and-sell-network
+5) Now install the composer runtime with the PeerAdmin@hlfv1 peerAdmin card that's automatically created previously along with the name of the business network which in our case is simple-buy-and-sell-network
 
         `composer runtime install --card PeerAdmin@hlfv1 --businessNetworkName simple-buy-and-sell-network`
 
-6) The above command will deploy our business network as well as create the admincard for our business network, remember the previous one was for the peer on the machine and this one is for our business-network
+6) The above command will deploy our business network as well as create the admin card for our business network, remember the previous one was for the peer on the machine and this one is for our business-network
 
         `composer network start --card PeerAdmin@hlfv1 --networkAdmin admin --networkAdminEnrollSecret adminpw --archiveFile simple-buy-and-sell-network@0.0.1.bna --file networkadmin.card`
 

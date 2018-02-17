@@ -1,4 +1,4 @@
-<center> ## Install guide </center>
+## Install guide
 
 1) Following links will help you install the tools necessary, i.e. you will have the developmental tools to interact with the Hyperledger-Composer and also the Hyperledger-Fabric where you deploy the business networks you create.
 

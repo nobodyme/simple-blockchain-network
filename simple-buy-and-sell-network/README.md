@@ -1,17 +1,19 @@
-# org.example.biznet
-# Simple buy and sell business Network
+## Simple buy and sell business Network
 
 > This is a simple Hyperledger Composer network that allows the users to create and sell an asset
 
 This business network defines:
 
 **Participant**
+
 `User`
 
 **Asset**
+
 `Goods`
 
 **Transaction**
+
 `Buy`
 
 Goods are owned by the Users and the `User` can buy a `Good` by submitting a `Buy` transaction with the id of the product and exchange of amount take place.
@@ -73,9 +75,10 @@ Submitting a `Buy` transaction again with the same data will greet you with a er
   "user": "resource:org.example.biznet.User#memberB@gmail.com",
   "goods": "resource:org.example.biznet.Goods#goodsId:1"
 }
+```
 
 You should also see appropriate error messages when you don't have enough balance to buy the goods and when the goods are already sold.
 
-And that's you see the working of this simple blockchain network.
+And that's the working of this simple blockchain network.
 
 

@@ -25,7 +25,7 @@
 
 5) Now install the composer runtime with the PeerAdmin@hlfv1 that's automatically created previously along with the name of the business network which in our case is simple-buy-and-sell-network
 
-        `composer runtime install --card PeerAdmin@hlfv1 --businessNetworkName tutorial-network`
+        `composer runtime install --card PeerAdmin@hlfv1 --businessNetworkName simple-buy-and-sell-network`
 
 6) The above command will deploy our business network as well as create the admincard for our business network, remember the previous one was for the peer on the machine and this one is for our business-network
 

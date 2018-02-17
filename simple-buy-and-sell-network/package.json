@@ -1,0 +1,22 @@
+{
+  "name": "simple-buy-and-sell-network",
+  "version": "0.0.1",
+  "description": "A simple network where users can create, sell and buy assets",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "nobody",
+  "email": "nobodydisturbme@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-common": "latest",
+    "composer-connector-embedded": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}

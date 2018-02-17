@@ -1,0 +1,30 @@
+/**
+ * Simple buy and sell goods business network definition.
+ */
+
+namespace org.example.biznet
+
+enum GoodsState {
+  o FOR_SALE
+  o SOLD
+}
+
+asset Goods identified by goodsId {
+  o String goodsId
+  o GoodsState state
+  o String description
+  o Double productPrice
+  --> User owner
+}
+
+participant User identified by email {
+  o String email
+  o String firstName
+  o String lastName
+  o Double balance
+}
+
+transaction Buy {
+  --> User user
+  --> Goods goods
+}

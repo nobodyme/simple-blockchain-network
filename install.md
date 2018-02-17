@@ -1,12 +1,12 @@
+<center> ## Install guide </center>
 
-1) Following links will help you have the tools necessary, ie you will have the developmental tools to interact with the Hyperledger-Composer and also the Hyperledger-Fabric where you deploy the business networks you create.
+1) Following links will help you install the tools necessary, i.e. you will have the developmental tools to interact with the Hyperledger-Composer and also the Hyperledger-Fabric where you deploy the business networks you create.
 
-    [Installing pre-requisites depending upon your OS](https://hyperledger.github.io/composer/installing/installing-prereqs)
-
+    [Installing pre-requisites depending upon your OS](https://hyperledger.github.io/composer/installing/installing-prereqs)<br>
     [Install basic hyperledger composer handy tools and fabric (following till step 4)](https://hyperledger.github.io/composer/installing/development-tools)
 
 
-2) After just run the following commands which start the Hyperledger-Fabric runtime and creates a AdminCard for your peer which will be needed in the future to deploy business networks to your peer.
+2) After that just run the following commands to start the Hyperledger-Fabric runtime and create a AdminCard for your peer which will be needed in the future to deploy business networks to your peer.
 (Note: There can be mutiple peers in a single machine)
 
     ```

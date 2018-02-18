@@ -18,7 +18,8 @@ This business network defines:
 
 Goods are owned by the Users and the `User` can buy a `Good` by submitting a `Buy` transaction with the id of the product and exchange of amount take place.
 
-To test this Business Network Definition in the **Test** tab of the composer-playground:
+To test this Business Network Definition in the **Test** tab of the composer-playground:</br>
+Haven't used the playground before? [Check this out and come back](https://hyperledger.github.io/composer/tutorials/playground-tutorial.html).
 
 In the `User` participant registry, create two Users.
 

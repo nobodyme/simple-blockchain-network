@@ -8,11 +8,11 @@ function buy(buy) {
     if(buy.user.email === buy.goods.owner.email){
         throw new Error('You already own the asset');
     }
+    if(buy.goods.state !== 'FOR_SALE'){
+      throw new Error('Sorry the product is not available for sale');
+    }
     if(buy.user.balance < buy.goods.productPrice){
         throw new Error('Sorry you do not have enough balance');
-    }
-    if(buy.goods.status !== 'FOR_SALE'){
-        throw new Error('Sorry the product is not available for sale');
     }
     
     var buyer = buy.user;

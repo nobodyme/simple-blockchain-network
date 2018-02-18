@@ -17,7 +17,7 @@
 
 3) Next clone this repository anywhere and navigate into it by issuing the following command
 
-        git clone https://github.com/nobodyme/simple-blockchain-network.git && cd simple-blockchain-network
+        git clone https://github.com/nobodyme/simple-blockchain-network.git && cd simple-blockchain-network/simple-buy-and-sell-network
 
 4) Now that we have our business network, we create an archive of this business network which is ready to be deployed to the fabric using the following command.
 
